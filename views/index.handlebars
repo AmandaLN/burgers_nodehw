@@ -1,5 +1,5 @@
 <h1>Eat-Da-Burger!</h1>
-
+<img class="displayed" src="https://www.drawingnow.com/file/videos/steps/118600/how-to-draw-a-burger-step-11.jpg" alt="burger drawing"></img>
 <h2>Burgers in waiting!</h2>
 
 <ul>
@@ -10,9 +10,9 @@
   {{/each}}
 </ul>
 
-<h2 class="float-right">Burgers Devoured!</h2>
+<h2 id="devoured">Burgers Devoured!</h2>
 
-<ul class="float-right">
+<ul id="devoured">
   {{#each burgers}}
   {{#if devour}}
   {{> burgers/burger-block devour=false}}
@@ -20,7 +20,7 @@
   {{/each}}
 </ul>
 
-<h2>Add a Burger</h2>
+<h2 class="headform">Add a Burger</h2>
 <form id="create-form">
 
   <div class="form-group">
