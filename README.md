@@ -19,7 +19,7 @@ Express-handlebars
 
 
 ## Usage
-![screenshot](./assets/images/Screenshot132.png)
+![screenshot](./public/assets/images/Screenshot132.png)
 
 
 
