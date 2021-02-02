@@ -12,8 +12,8 @@ if (process.env.JAWSDB_URL) {
   // NOTE: Be sure to add your MySQL password here!
   password: 'rootroot',
   database: 'burgers_db',
-}
-);
+});
+};
 
 // Make connection.
 connection.connect((err) => {
