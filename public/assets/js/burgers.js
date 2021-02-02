@@ -75,8 +75,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         location.reload();
       });
     });
-  };
-
+  }
   // delete
   $(".delete-burger").on("click", function(event) {
     var id = $(this).data("id");
